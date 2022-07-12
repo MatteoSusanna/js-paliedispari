@@ -7,12 +7,11 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 
-1. fai inserire il numero da 1 a 5 dall'utente                                V 
-2. controlla se il numero dell'utente è compreso tra 1 e 5
-3. creiamo una funziona che generi un numero da 1 a 5 per il pc               V
-4. sommiamo i numeri usciti sia dall'utente che dal pc                        V
-5. creiamo un'altra funziona controllando se la somma sia pari o dispari      V
-6. se è pari vince utente se dispari pc
+1. fai inserire il numero da 1 a 5 dall'utente                                
+2. creiamo una funziona che generi un numero da 1 a 5 per il pc               
+3. sommiamo i numeri usciti sia dall'utente che dal pc                        
+4. creiamo un'altra funziona controllando se la somma sia pari o dispari      
+5. se è pari vince utente se dispari pc
 
 */ 
 
