@@ -14,17 +14,17 @@ parola = palindroma(parola);
 
 
 if(verifica = 'palindroma'){
-    alert('la parola è palindroma')
+    alert('la parola è palindroma');
 }else {
-    alert('la parola non è palindroma')
+    alert('la parola non è palindroma');
 }
 
 
 
 
-function palindroma (parola){
+function palindroma (parolaIns){
 
-    let myArray = parola.split('');
+    let myArray = parolaIns.split('');
     console.log(myArray);
 
     myArray.reverse();
@@ -35,10 +35,10 @@ function palindroma (parola){
 
     for( let i = myArray.length; i > 0; i--){
 
-        if(myArray[i] == parola[i]){
-            pali = "palindroma";
+        if(myArray[i] == parolaIns[i]){
+            verifica = "palindroma";
         }else{
-            pali = "nopalindroma";
+            verifica = "nopalindroma";
         }
 
     }
