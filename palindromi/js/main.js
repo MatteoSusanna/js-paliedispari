@@ -9,61 +9,29 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 let parola = prompt('Inserisci una parola');
 
-
 parola = palindroma(parola);
 
 
-if(verifica = 'palindroma'){
-    alert('la parola è palindroma');
-}else {
-    alert('la parola non è palindroma');
-}
-
-
-
-
-function palindroma (parolaIns){
+function palindroma(parolaIns){
 
     let myArray = parolaIns.split('');
     console.log(myArray);
 
-    myArray.reverse();
-    console.log(myArray);
-
-
     let verifica = '';
 
-    for( let i = myArray.length; i > 0; i--){
+    for( let i = myArray.length - 1; i >= 0; i--){
 
-        if(myArray[i] == parolaIns[i]){
-            
-        }else{
-            
-        }
+        verifica += myArray[i];
+        console.log(verifica);
 
     }
 
-    
-
-    return verifica;
-
-
-
-
-
-
-/*
-    let pali = '';
-
-    if(myArray.reverse == parola.split){
-        pali = "palindroma";
-    }else{
-        pali = "nopalindroma";
+    if(verifica == parola){
+        alert('la parola è palindroma');
+    }else {
+        alert('la parola non è palindroma');
     }
 
 
-    return pali;
-
-*/
 }
 
