@@ -36,12 +36,14 @@ function palindroma (parolaIns){
     for( let i = myArray.length; i > 0; i--){
 
         if(myArray[i] == parolaIns[i]){
-            verifica = "palindroma";
+            
         }else{
-            verifica = "nopalindroma";
+            
         }
 
     }
+
+    
 
     return verifica;
 
