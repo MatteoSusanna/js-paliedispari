@@ -9,7 +9,10 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 let parola = prompt('Inserisci una parola');
 
+
+
 parola = palindroma(parola);
+
 
 
 function palindroma(parolaIns){
@@ -31,7 +34,6 @@ function palindroma(parolaIns){
     }else {
         alert('la parola non è palindroma');
     }
-
 
 }
 

@@ -14,7 +14,7 @@ Dichiariamo chi ha vinto.
 5. se è pari vince utente se dispari pc
 
 */ 
-
+let sceltaPariDispari = prompt('Scegli pari o dispari');
 let numeroUtente = parseInt(prompt('Inserisci un numero da 1 a 5'));
 let randomPC = numeroRandPc(1, 5);
 let sommaNum = randomPC + numeroUtente;
@@ -23,10 +23,10 @@ let sommaNum = randomPC + numeroUtente;
 alert ('numero del pc è ' + randomPC)
 //console.log('somma ' + sommaNum);
 
-let sommaPariDispari = pariDispari(sommaNum);
+let scelta = pariDispari(sommaNum);
 //console.log('pari dispari ' + sommaPariDispari);
 
-if(sommaPariDispari == 'pari'){
+if(sceltaPariDispari == scelta){
     alert('la somma è pari, hai vinto!!');
 }else{
     alert ('La somma è dispari, hai perso!!');
